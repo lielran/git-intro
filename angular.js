@@ -1,5 +1,6 @@
 'use strict';
 
+var x =5;
 var webapp =angular.module('webApp', []).
     config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/home', {templateUrl: 'index.html', controller: 'EventController'});
